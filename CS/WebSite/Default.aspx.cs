@@ -7,7 +7,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
-using DevExpress.Web.ASPxCallback;
+using DevExpress.Web;
 
 public partial class _Default : System.Web.UI.Page 
 {
@@ -16,7 +16,7 @@ public partial class _Default : System.Web.UI.Page
 
     }
 
-    protected void ASPxCallback1_Callback(object source, DevExpress.Web.ASPxCallback.CallbackEventArgs e){
+    protected void ASPxCallback1_Callback(object source, DevExpress.Web.CallbackEventArgs e){
         System.Threading.Thread.Sleep(2000); //Paused for demonstrative purposes
 
         ASPxCallback callbackControl = source as ASPxCallback;
