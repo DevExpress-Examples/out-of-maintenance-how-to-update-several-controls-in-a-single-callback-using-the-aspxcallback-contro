@@ -1,8 +1,3 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128565379/13.1.4%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E1371)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 <!-- default file list -->
 *Files to look at*:
 
@@ -10,9 +5,6 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # How to update several controls in a single callback using the ASPxCallback control
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e1371/)**
-<!-- run online end -->
 
 
 <p>This example demonstrates how several controls can be easily updated using a single callback, which can be sent by the ASPxCallback control. The updated controls can be located anywhere within the page.</p><p>In this sample, a callback is initiated by the ASPxCallback control's client PerformCallback method, and it is handled on the server within the Callback event handler. </p><p>Controls that doesn't provide any client method to manipulate their properties and values on the client side (such as a standard TextBox control used within this sample) can be updated by rendering their updated markup on the server, sending it to the client, and manually inserting this markup into their container controls.<br />
